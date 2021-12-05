@@ -33,6 +33,7 @@ h2, h3{
 .talking{
     height: 150px;
 }
+
 .bottom-container{
     background-color: #FAF9F6;
 
@@ -41,13 +42,13 @@ h2, h3{
     height: 130px;
     position: absolute;
     top: 40px;
-    right: 900px;
+    right: 650px;
 }
 .bottomlight{
     height: 130px;
     position: absolute;
     top: 40px;
-    left: 900px;
+    left: 650px;
     transform: rotateY(180deg);
 
 }
