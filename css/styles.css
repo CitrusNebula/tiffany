@@ -1,0 +1,53 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin-top: 0;
+    font-family: 'Sacramento', cursive; 
+}
+h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+    background-color: #ffdab9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: #FAF9F6;
+}
+.tiffanypic{
+    border-radius: 50%;
+    height: 200px;
+}
+.notespic{
+    height: 100px;
+}
+.briefcase{
+    height: 100px;
+}
+.talking{
+    height: 150px;
+}
+.bottom-container{
+    background-color: #FAF9F6;
+
+}
+.toplight{
+    height: 130px;
+    position: absolute;
+    top: 40px;
+    right: 900px;
+}
+.bottomlight{
+    height: 130px;
+    position: absolute;
+    top: 40px;
+    left: 900px;
+    transform: rotateY(180deg);
+
+}
