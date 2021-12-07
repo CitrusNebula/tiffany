@@ -11,7 +11,7 @@ h1{
     font-family: 'Sacramento', cursive; 
 }
 h2{
-    /* font-weight: normal; */
+    font-weight: normal;
     color: #b44336;
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
@@ -21,6 +21,7 @@ h3{
     ;
     font-family: 'Montserrat', sans-serif;
 }
+
 .top-container{
     background-color: #ffdab9;
     position: relative;
@@ -30,18 +31,33 @@ h3{
 .middle-container{
     background-color: #FAF9F6;
 }
+.skill-row{
+    width: 30%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
 .tiffanypic{
     border-radius: 50%;
-    height: 200px;
+    width: 10%;
 }
 .notespic{
-    height: 100px;
+    margin-right: 30px;
+    margin-bottom: 200px;
+    float: left;
+    width: 20%;
+    clear: bottom;
 }
 .briefcase{
-    height: 100px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    float: right;
+    width: 20%;
+    clear: bottom;
 }
 .talking{
-    height: 150px;
+    width: 7%;
 }
 
 .bottom-container{
