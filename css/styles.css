@@ -5,10 +5,20 @@ body{
     font-family: 'Merriweather', serif;
 }
 h1{
+    line-height: 2;;
+    font-size: 4rem;
     margin-top: 0;
     font-family: 'Sacramento', cursive; 
 }
-h2, h3{
+h2{
+    /* font-weight: normal; */
+    color: #b44336;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #526a83;
+    ;
     font-family: 'Montserrat', sans-serif;
 }
 .top-container{
