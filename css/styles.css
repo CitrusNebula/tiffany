@@ -21,6 +21,11 @@ h3{
     ;
     font-family: 'Montserrat', sans-serif;
 }
+hr{
+    border: 1px solid;
+    border-radius: 10px;
+    color: pink;
+}
 
 .top-container{
     background-color: #ffdab9;
@@ -28,9 +33,7 @@ h3{
     padding-top: 200px;
 }
 
-.middle-container{
-    background-color: #FAF9F6;
-}
+
 .skill-row{
     width: 30%;
     text-align: left;
@@ -40,30 +43,26 @@ h3{
 
 .tiffanypic{
     border-radius: 50%;
-    width: 10%;
+    height: 200px;
 }
 .notespic{
     margin-right: 30px;
     margin-bottom: 200px;
     float: left;
-    width: 20%;
+    height: 160px;
     clear: bottom;
 }
 .briefcase{
     margin-left: 30px;
     margin-bottom: 15px;
     float: right;
-    width: 20%;
+    height: 160px;
     clear: bottom;
 }
 .talking{
-    width: 7%;
+    height: 160px;
 }
 
-.bottom-container{
-    background-color: #FAF9F6;
-
-}
 .toplight{
     height: 130px;
     position: absolute;
@@ -78,3 +77,32 @@ h3{
     transform: rotateY(180deg);
 
 }
+.contact-me{
+    margin-bottom: 20px;
+}
+.contact-me button{
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom-container{
+    background-color: #bc8f8f;
+
+}
+.footer-link{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
