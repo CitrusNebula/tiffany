@@ -22,8 +22,10 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 hr{
-    border: 1px solid;
-    border-radius: 10px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 3%;
     color: pink;
 }
 
@@ -94,6 +96,9 @@ hr{
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
+.contact-me button:hover{
+    background-color: salmon;
+}
 .bottom-container{
     background-color: #bc8f8f;
 
@@ -104,5 +109,9 @@ hr{
     font-size: 1.1rem;
     color: white;
 
+}
+.footer-link:hover{
+    border-radius: 10px;
+    background-color: salmon;
 }
 
